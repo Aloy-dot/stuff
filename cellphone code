@@ -1,0 +1,17 @@
+.text1 {width: 400px; Height: 600px; Border-radius:20px; border: 10px solid var(--lightgrey); margin: auto; background: var(--black); position: relative; }
+.text1-2{width:50px; height:50px; background: #4389A2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #4389A2, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #4389A2, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  Position: absolute; top:20px; left: 20px; padding: 20px; }
+.text1-2 img {width:100px; height:100px; border: 1px solid var(--white)}
+.text1-3 {Color: var(--white); text-transform: lowercase; font-weight:600;  position: absolute; top: 65px; Left: 150px; width: 240px; text-align: center; font-size:20px;}
+.text1-4 {color: var(--blue); font-size: 50px; position: absolute; top: 100px; Left: 0px}
+.text1-5 { border-radius: 10px; position: absolute;  bottom: 10px; Left: 15px; 
+  background: var(--grey); width: 370px; height: 50px; text-transform: lowercase; font-size: 20px; font-weight: 600; Text-align:center;Line-height: 45px; }
+.text1-6 {Font-size:30px; Position: absolute; bottom:15px; right: 30px;  }
+.text1-7 {width: 360px; height: 340px; Position: absolute; top: 180px; Left: 20px; overflow: auto  }
+.text1-7::-webkit-scrollbar { width: 5px; height: 5px;  background-color:var(--blue); }
+.text1-7::-webkit-scrollbar-track { background-color:var(--black); }
+.text1-7::-webkit-scrollbar-thumb { background-color:var(--blue);}
+.text1-8{width: 330px; Height: auto;  background: #4389A2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4389A2, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4389A2, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ **/ Position: relative; Padding: 5px; border-radius: 10px; Color: var(--white); Font-size:13px; Line-height: 16px; Text-align: center; margin-bottom: 20px  }
